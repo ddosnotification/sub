@@ -1,0 +1,41 @@
+FAVICON SETUP INSTRUCTIONS
+===========================
+
+A favicon is the small icon that appears in browser tabs next to your page title.
+
+QUICK SETUP:
+1. Create or download a favicon (32x32px or 16x16px PNG/ICO)
+2. Save it as 'favicon.ico' in the root directory (/workspace/)
+3. Add this line in <head> section of index.html:
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+RECOMMENDED FAVICON DESIGN:
+- Use PODPEROS brand colors (pink/red)
+- Simple design that works at small size
+- Suggestion: Stylized "P" or lips icon
+- Format: .ico or .png
+
+MULTI-SIZE FAVICON (Best Practice):
+For best compatibility across all devices, create these sizes:
+
+favicon.ico (16x16, 32x32) - for browsers
+apple-touch-icon.png (180x180) - for iOS devices
+favicon-32x32.png (32x32) - for standard browsers
+favicon-16x16.png (16x16) - for browser tabs
+
+Then add these lines to index.html <head>:
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+FREE TOOLS TO CREATE FAVICONS:
+- favicon.io - Generate from text, image, or emoji
+- realfavicongenerator.net - Complete favicon package generator
+- canva.com - Design custom icon
+- favicon-generator.org - Simple converter
+
+RECOMMENDED COLORS FOR PODPEROS FAVICON:
+Background: #FF006E (brand pink)
+Icon/Text: White (#FFFFFF)
+Style: Bold, modern, minimal

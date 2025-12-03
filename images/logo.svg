@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF006E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF2D87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF89B5;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#logoGradient)" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Stylized Lips -->
+  <g filter="url(#glow)">
+    <!-- Upper Lip -->
+    <path d="M 40 90 Q 60 65, 80 75 Q 95 70, 100 75 Q 105 70, 120 75 Q 140 65, 160 90" 
+          fill="url(#logoGradient)" 
+          stroke="#C70050" 
+          stroke-width="2"/>
+    
+    <!-- Lower Lip -->
+    <path d="M 40 90 Q 60 120, 100 125 Q 140 120, 160 90" 
+          fill="url(#logoGradient)" 
+          stroke="#C70050" 
+          stroke-width="2"/>
+    
+    <!-- Lip highlight -->
+    <ellipse cx="100" cy="75" rx="25" ry="10" fill="rgba(255,255,255,0.3)"/>
+    
+    <!-- Pouch under lips -->
+    <rect x="85" y="135" width="30" height="40" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <line x1="92" y1="143" x2="108" y2="143" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text "P" -->
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#logoGradient)" text-anchor="middle">P</text>
+</svg>
