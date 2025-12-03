@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Podperos - Tvoj nový zdroj nikotínových vrecúšok. Vždy čerstvé, vždy nové príchute!">
+    <title>PODPEROS - Pod Pery, Nad Očakávaniami</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo-wrapper">
+                <img src="images/logo.png" alt="Podperos Logo" class="logo" onerror="this.src='images/logo.svg';">
+                <div class="logo-fallback" style="display: none;">
+                    <span class="logo-text">POD<span class="highlight">PEROS</span></span>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Domov</a>
+                <a href="#about" class="nav-link">O Nás</a>
+                <a href="#products" class="nav-link">Produkty</a>
+                <a href="#locations" class="nav-link">Kde Nás Nájdeš</a>
+                <a href="#contact" class="nav-link">Kontakt</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <h1 class="hero-title">
+                    <span class="title-line">POD</span>
+                    <span class="title-line highlight-line">PEROS</span>
+                </h1>
+                <p class="hero-subtitle">Nikotínové vrecúška priamo z automatu</p>
+                <p class="hero-tagline">Vždy čerstvé. Vždy nové. Vždy pod perami.</p>
+                <div class="hero-cta">
+                    <a href="#locations" class="btn btn-primary">
+                        <span>Nájdi Automat</span>
+                        <i class="fas fa-location-dot"></i>
+                    </a>
+                    <a href="#products" class="btn btn-secondary">
+                        <span>Naše Produkty</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+                <div class="floating-element pouch-1">
+                    <div class="pouch-container">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=400" alt="Nicotine Pouch" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22300%22%3E%3Crect fill=%22%23ff1744%22 width=%22200%22 height=%22300%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2220%22%3ESNUS%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+                <div class="floating-element pouch-2">
+                    <div class="pouch-container">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=400" alt="Nicotine Pouch" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22300%22%3E%3Crect fill=%22%23ec407a%22 width=%22200%22 height=%22300%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2220%22%3ENICO%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+                <div class="lip-icon">
+                    <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 20 50 Q 20 20, 50 20 Q 80 20, 100 40 Q 120 20, 150 20 Q 180 20, 180 50 Q 180 80, 150 80 Q 120 90, 100 80 Q 80 90, 50 80 Q 20 80, 20 50 Z" fill="#ff1744" stroke="#c51162" stroke-width="2"/>
+                        <ellipse cx="100" cy="60" rx="60" ry="15" fill="#c51162" opacity="0.5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scrolluj dolu</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Čo Je <span class="highlight">Podperos?</span></h2>
+                <p class="section-subtitle">Revolúcia v distribúcii nikotínových vrecúšok</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Rýchle & Jednoduché</h3>
+                    <p>Žiadne čakanie v rade. Žiadne otázky. Len ty a automat s tvojimi obľúbenými vrecúškami.</p>
+                </div>
+                
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3>Vždy Nové Príchute</h3>
+                    <p>Každý mesiac fresh sortiment. Top značky, najnovšie príchute, špeciálne edície - všetko pod jedným "perom".</p>
+                </div>
+                
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24/7 Dostupnosť</h3>
+                    <p>Naše automaty nikdy nespia. Či je ráno, poludnie alebo polnoc - sme tu pre teba.</p>
+                </div>
+            </div>
+            
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-text">
+                    <h3>Pod Peros = Pod Perami</h3>
+                    <p>Náš názov nie je náhoda. "Podperos" v slovenčine znamená "pod perami" - presne tam, kde patria nikotínové vrecúška. Sme tu, aby sme ti priniesli ten najlepší zážitok z nikotínu, bez dymu, bez zápachu, len čistý pôžitok.</p>
+                    <p>Spolupracujeme s najlepšími značkami ako <strong>ZYN, VELO, LYFT, PABLO</strong> a mnohými ďalšími. Naša misia? Mať vždy to najnovšie a najlepšie pre našich zákazníkov.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800" alt="Vending Machine" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22600%22%3E%3Crect fill=%22%23ff1744%22 width=%22800%22 height=%22600%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2240%22%3EPODPEROS%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Naše <span class="highlight">Top Picks</span></h2>
+                <p class="section-subtitle">Najobľúbenejšie značky a príchute v našich automatoch</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=400" alt="ZYN" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23ff1744%22 width=%22400%22 height=%22300%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2245%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-weight=%22bold%22%3EZYN%3C/text%3E%3Ctext x=%2250%25%22 y=%2265%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2220%22%3ECool Mint%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ZYN</h3>
+                        <p class="product-flavor">Cool Mint, Citrus, Spearmint</p>
+                        <div class="product-strength">
+                            <span class="strength-badge">3mg</span>
+                            <span class="strength-badge">6mg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="product-badge hot">HOT</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=400" alt="VELO" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23ec407a%22 width=%22400%22 height=%22300%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2245%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-weight=%22bold%22%3EVELO%3C/text%3E%3Ctext x=%2250%25%22 y=%2265%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2220%22%3EIce Cool%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">VELO</h3>
+                        <p class="product-flavor">Ice Cool, Berry Frost, Tropical</p>
+                        <div class="product-strength">
+                            <span class="strength-badge">4mg</span>
+                            <span class="strength-badge">10mg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="product-badge">POPULAR</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=400" alt="LYFT" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23d81b60%22 width=%22400%22 height=%22300%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2245%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-weight=%22bold%22%3ELYFT%3C/text%3E%3Ctext x=%2250%25%22 y=%2265%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2220%22%3EWinter Chill%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">LYFT</h3>
+                        <p class="product-flavor">Winter Chill, Ruby Berry, Lime</p>
+                        <div class="product-strength">
+                            <span class="strength-badge">6mg</span>
+                            <span class="strength-badge">12mg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="product-badge extreme">EXTREME</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=400" alt="PABLO" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23c51162%22 width=%22400%22 height=%22300%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2245%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-weight=%22bold%22%3EPABLO%3C/text%3E%3Ctext x=%2250%25%22 y=%2265%25%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2220%22%3EIce Cold%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">PABLO</h3>
+                        <p class="product-flavor">Ice Cold, Exclusive, Banana</p>
+                        <div class="product-strength">
+                            <span class="strength-badge">30mg</span>
+                            <span class="strength-badge">50mg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="products-footer" data-aos="fade-up">
+                <p class="products-note">+ viac než 20 ďalších značiek a príchutí v našich automatoch!</p>
+                <p class="products-disclaimer">Produkty obsahujú nikotín. Nikotín je návyková látka. Predaj len pre osoby staršie ako 18 rokov.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-box" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon-large">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Vapes & Špeciálne Edície</h3>
+                    <p>Občas máme aj limitované nikotínové vapes a exkluzívne príchute, ktoré nikde inde nenájdeš!</p>
+                </div>
+                
+                <div class="feature-box" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-icon-large">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>Pravidelné Updates</h3>
+                    <p>Každý týždeň dopĺňame sortiment. Sleduj nás na sociálnych sieťach pre novinky!</p>
+                </div>
+                
+                <div class="feature-box" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-icon-large">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Bezhotovostné Platby</h3>
+                    <p>Plať kartou alebo mobilom. Rýchlo, jednoducho, bezpečne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations" id="locations">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Kde <span class="highlight">Nás Nájdeš?</span></h2>
+                <p class="section-subtitle">Naše automaty sú rozmiestnené po celom Slovensku</p>
+            </div>
+            
+            <div class="locations-content">
+                <div class="location-cards" data-aos="fade-right">
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-info">
+                            <h4>Bratislava</h4>
+                            <p>Centrum, Staré Mesto, Petržalka</p>
+                            <span class="location-count">8 automatov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-info">
+                            <h4>Košice</h4>
+                            <p>Stredné Mesto, OC</p>
+                            <span class="location-count">5 automatov</span>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-info">
+                            <h4>Žilina</h4>
+                            <p>Centrum, Obchodné centrá</p>
+                            <span class="location-count">3 automaty</span>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="location-info">
+                            <h4>Ďalšie mestá</h4>
+                            <p>Trnava, Nitra, Prešov, Trenčín</p>
+                            <span class="location-count">12 automatov</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-placeholder" data-aos="fade-left">
+                    <div class="map-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Interaktívna mapa všetkých lokalít</p>
+                        <a href="#contact" class="btn btn-primary">Kontaktuj Nás Pre Detaily</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Máš <span class="highlight">Otázky?</span></h2>
+                <p class="section-subtitle">Sme tu pre teba!</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@podperos.sk</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telefón</h4>
+                            <p>+421 XXX XXX XXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <p>@podperos.sk</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-socials">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tvoje Meno" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tvoj Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tvoja Správa" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Odoslať</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>POD<span class="highlight">PEROS</span></h3>
+                    <p>Pod perami, nad očakávaniami.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Rýchle Linky</h4>
+                    <a href="#home">Domov</a>
+                    <a href="#about">O Nás</a>
+                    <a href="#products">Produkty</a>
+                    <a href="#locations">Lokality</a>
+                </div>
+                <div class="footer-legal">
+                    <h4>Právne Info</h4>
+                    <a href="#">Obchodné Podmienky</a>
+                    <a href="#">Ochrana Údajov</a>
+                    <a href="#">18+ Overenie</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Podperos. Všetky práva vyhradené.</p>
+                <p class="footer-warning">⚠️ Nikotín je návyková látka. Produkty len pre 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
