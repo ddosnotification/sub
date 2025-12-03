@@ -1,0 +1,22 @@
+LOGO PLACEHOLDER NOTICE
+=======================
+
+Please add your logo.png file to this directory.
+
+For now, the website will use logo.svg which has been created with the PODPEROS branding:
+- Pink/red gradient colors
+- Stylized lips illustration
+- Pouch element under the lips
+- Matches the brand identity
+
+Recommended logo specifications:
+- Format: PNG with transparency
+- Size: 500x500px minimum
+- Colors: Use the brand colors (#FF006E, #FF2D87, #FF89B5)
+- Style: Modern, bold, memorable
+
+The logo should embody the "pod peros" (under lips) concept with visual elements like:
+- Stylized lips
+- Nicotine pouch imagery
+- Fresh, modern aesthetic
+- Bold typography
